@@ -22,3 +22,14 @@ pollutantmean("specdata", "nitrate", 70:72)
 ## [1] 1.706
 pollutantmean("specdata", "nitrate", 23)
 ## [1] 1.281
+
+list.files()
+check <- read.csv("data//raw/specdata/001.csv")
+head(check)
+length(check$Date)
+dim(check)
+str(check)
+summary(check)
+names(check)
+check[1461,"sulfate"]
+head
