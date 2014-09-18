@@ -32,4 +32,13 @@ str(check)
 summary(check)
 names(check)
 check[1461,"sulfate"]
-head
+tail(check)
+
+subset(check$ID, check$ID==1)
+
+pollution_files <- list.files("data//raw/specdata/")
+pollution_files[3]
+pollution_files[100:110]
+
+pollution_files_full <- list.files("data//raw/specdata/",full.names = TRUE)
+pollution_files_full
